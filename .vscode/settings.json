@@ -107,7 +107,7 @@
 	"C_Cpp.default.cStandard": "c17",
 	"code-runner.executorMap": {
 		// skipped
-		"cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+		"cpp": "cd $dir && g++ -std=c++20 $fileName -o program && $dir/program"
 		// skipped
 	},
 	"C_Cpp.default.includePath": [
